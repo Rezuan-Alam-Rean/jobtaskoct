@@ -1,3 +1,5 @@
+import { TbCalendarCheck } from "react-icons/tb";
+
 
 import { FaUser, FaClipboardList, FaCheck, FaTimes, FaUtensils, FaMotorcycle, FaThumbsUp, FaTicketAlt } from 'react-icons/fa'
 const Date = () => {
@@ -15,14 +17,16 @@ const Date = () => {
     return (
         <div className='rounded-lg max-w-7xl mx-auto shadow-sm bg-[#ffffff]  mt-[30px]  '>
             <div className="p-4">
-                <div className="flex justify-between mt-[14px] mb-[30px]">
+                <div className="md:flex justify-between mt-[14px] mb-[30px]">
                     <div className="flex space-x-1">
                         <button className="px-4 py-2 bg-white rounded shadow">12 months</button>
                         <button className="px-4 py-2 bg-white rounded shadow">30 days</button>
                         <button className="px-4 py-2 bg-white rounded shadow">7 days</button>
                         <button className="px-4 py-2 bg-white rounded shadow">24 hours</button>
                     </div>
-                    <button className="px-4 py-2 bg-white rounded shadow">Custom Date</button>
+                    <button className="px-4 py-2 mt-6 md:mt-0 bg-white rounded shadow flex gap-x-2 items-center">  <TbCalendarCheck size={23} />
+
+                    Custom Date</button>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                     {stats.map((stat, index) => (
