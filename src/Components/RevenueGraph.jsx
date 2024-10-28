@@ -50,9 +50,9 @@ const options = {
 
 const RevenueChart = () => {
   return (
-    <div className="max-w-full md:h-[365px] p-4 bg-white rounded-lg shadow-md">
-      <div className="flex justify-between items-center mb-4">
-        <h2 className="text-xl font-semibold">Revenue 600 AED</h2>
+    <div className="max-w-full md:h-[380px] p-4 bg-white rounded-lg shadow-md">
+      <div className="flex border-b justify-between items-center mb-4">
+        <h2 className="text-xl pb-4 font-semibold">Revenue 600 AED</h2>
         <BsThreeDotsVertical />
 
       </div>
