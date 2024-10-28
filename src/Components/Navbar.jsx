@@ -1,11 +1,12 @@
 import { IoNotificationsOutline } from "react-icons/io5";
 import { AiOutlineMessage } from "react-icons/ai";
-import { IoNotificationsSharp } from "react-icons/io5";
+
+import img from "../assets/Intersect.png"
 const Navbar = () => {
     return (
-        <div>
+        <div className="rounded-lg max-w-7xl mx-auto shadow-sm bg-[#ffffff]  h-[78px] flex justify-center items-center ">
 
-            <div className="navbar ">
+            <div className="navbar  ">
                 <div className="  flex-1">
                     <div className="  flex justify-center items-center">
                         <button className="">
@@ -28,19 +29,19 @@ const Navbar = () => {
                 <div className="flex-none gap-2">
 
                     <div className="dropdown dropdown-end">
-                        <div className="flex gap-x-4">
+                        <div className="flex h-[44px] w-[277px]  gap-x-4">
 
 
-                            <div className="flex justify-center items-center gap-x-4">
+                            <div className="flex justify-center ml-4 items-center gap-x-4">
                                 <div className="relative" >
 
-                                    <div className="h-4 w-4 text-xs text-center absolute ml-3 bg-[#A1045A]  rounded-full  ">1</div>
-                                    <IoNotificationsOutline size={25} />
+                                    <div className="h-3 w-3 flex items-center justify-center text-xs text-center absolute ml-3 bg-[#A1045A]  rounded-full  ">1</div>
+                                    <IoNotificationsOutline size={23} />
 
 
                                 </div>
                                 <div>
-                                    <AiOutlineMessage size={25} />
+                                    <AiOutlineMessage size={23} />
 
                                 </div>
 
@@ -53,14 +54,14 @@ const Navbar = () => {
                                 <div className="flex ml-4 ">
                                     <div className="text-end">
 
-                                        <p className="font-semibold">Nayamul Roni</p>
-                                        <p className="text-sm " >Super Admin</p>
+                                        <p className="font-semibold text-sm">Nayamul Roni</p>
+                                        <p className="text-xs " >Super Admin</p>
 
 
                                     </div>
-                                    <div className="avatar">
-                                        <div className="w-24 rounded-full">
-                                            <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                                    <div className="avatar  ml-4">
+                                        <div className="w-10 h-10 rounded-full">
+                                            <img src={img} />
                                         </div>
                                     </div>
 
