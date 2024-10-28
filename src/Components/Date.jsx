@@ -15,8 +15,8 @@ const Date = () => {
         { icon: <FaTicketAlt />, value: 1393, label: 'Coupons Active' },
     ];
     return (
-        <div className='rounded-lg max-w-7xl mx-auto shadow-sm bg-[#ffffff]  mt-[30px]  '>
-            <div className="p-4">
+        <div className='rounded-lg max-w-7xl mx-auto   mt-[30px]  '>
+            <div className="">
                 <div className="md:flex justify-between mt-[14px] mb-[30px]">
                     <div className="flex space-x-1">
                         <button className="px-4 py-2 bg-white rounded shadow">12 months</button>

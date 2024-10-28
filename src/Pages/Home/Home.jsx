@@ -7,31 +7,32 @@ import RevenueGraph from "../../Components/RevenueGraph";
 
 const Home = () => {
   return (
-    <div className="bg-[#FAF9F6] text-black pt-2">
-      <Navbar/>
-      <Date/>
-      
+    <div className="bg-[#FAF9F6] text-black pt-3">
+      <Navbar />
+      <Date />
+
       <div className="  rounded-lg max-w-7xl mx-auto  gap-x-6  mt-[30px] md:flex">
         <div className="w-full ">
-      <RevenueGraph />
+          <RevenueGraph />
 
         </div>
         <div className="w-full ">
-      <PendingTasks />
+          <PendingTasks />
 
         </div>
-    </div>
-      <div className="  rounded-lg max-w-7xl mx-auto shadow-sm bg-[#ffffff] gap-x-6  mt-[30px] md:flex">
+      </div>
+
+      <div className="  rounded-lg max-w-7xl mx-auto  gap-x-6 pb-[50px]  mt-[30px] md:flex ">
         <div className="w-full ">
-      <OrderSummary/>
+          <OrderSummary />
 
         </div>
         <div className="w-full ">
-     <ActivityLog/>
+          <ActivityLog />
 
         </div>
-    </div>
-    
+      </div>
+
     </div>
   );
 };

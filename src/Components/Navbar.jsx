@@ -11,12 +11,12 @@ const Navbar = () => {
             <div className="navbar  ">
                 <div className="  flex-1">
                     <div className="  flex justify-center items-center">
-                        <button className="px-3">
-                       
+                        <button className="md:px-3">
 
-                        <CiSearch size={25} />
+
+                            <CiSearch size={25} />
                         </button>
-                       
+
 
                         <input type="text" placeholder="Search here..." className="input bg-white  w-24 md:w-auto" />
                     </div>
@@ -24,10 +24,10 @@ const Navbar = () => {
                 <div className="flex-none gap-2">
 
                     <div className="dropdown dropdown-end">
-                        <div className="flex h-[44px] w-[277px]  gap-x-4">
+                        <div className="flex h-[44px] w-[277px]  md:gap-x-4">
 
 
-                            <div className="flex justify-center ml-4 items-center gap-x-4">
+                            <div className="flex justify-center md:ml-4 items-center gap-x-4">
                                 <div className="relative" >
 
                                     <div className="h-3 w-3 flex items-center justify-center text-xs text-center absolute ml-3 bg-[#A1045A]  rounded-full  ">1</div>

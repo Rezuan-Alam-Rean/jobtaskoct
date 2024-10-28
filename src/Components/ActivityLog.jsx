@@ -12,7 +12,7 @@ const ActivityLog = () => {
   ];
 
   return (
-    <div className="bg-white  p-6 rounded-lg shadow-md">
+    <div className="max-w-full  p-4 bg-white rounded-lg shadow-md">
          <div className="flex mx-4 justify-between items-center   mb-4">
         <h2 className="text-xl font-semibold">Activity Log</h2>
         <BsThreeDotsVertical />
